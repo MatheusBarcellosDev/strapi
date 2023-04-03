@@ -111,7 +111,8 @@
     },
     "Slug": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "Video": {
       "type": "string"
@@ -126,6 +127,10 @@
       ],
       "default": "Imagem",
       "required": true
+    },
+    "observacoes": {
+      "type": "text",
+      "private": true
     }
   }
 }
